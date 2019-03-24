@@ -1,2 +1,2 @@
 # StatefulLoop
-A library for building stateful loops for Arduino
+A library for building Arduino stateful loops
