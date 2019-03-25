@@ -15,7 +15,7 @@ Each state do what is needed for this state (e.g. checks if a button is pushed, 
 
 the **setState** function can take one or two parameter. The first one is mandatory and is the name of the next function you want to execute. The second optional parameter, which defaults to 0 (zero), can be used to delay the call to this function.
 
-```
+```c++
 #include <StatefulLoop.h>
 
 // ...
