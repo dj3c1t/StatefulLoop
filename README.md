@@ -13,7 +13,7 @@ The main idea behind the StatefulLoop library is to deal withs *states*. States 
 
 Each state do what is needed for this state (e.g. checks if a button is pushed, or sets some leds in a particular way). And each state also defines what the next state will be, by calling the **setState** function on a StatefulLoop instance.
 
-the **setState** function can take one or two parameter. The first one is mandatory and is the name of the next function you want to execute. The second optional parameter, which defaults to 0 (zero), can be used to delay the call to this function.
+the **setState** function can take one or two parameters. The first one is mandatory and is the name of the next function you want to execute. The second optional parameter, which defaults to 0 (zero), can be used to delay the call to this function.
 
 ```c++
 #include <StatefulLoop.h>
