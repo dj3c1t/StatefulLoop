@@ -64,3 +64,34 @@ void otherState() {
 ```
 
 A full example is available in the [trafficLights.ino](https://github.com/dj3c1t/StatefulLoop/blob/master/example/trafficLights.ino) sketch.
+
+## StatefulLoop functions
+
+### setState
+
+```c++
+    void setState(sl_state stateFunction, unsigned long msDelay = 0)
+```
+
+Sets the next state to the function **stateFunction**.
+
+|                  |                                            |
+|------------------|--------------------------------------------|
+|**stateFunction** | the function to be called                  |
+|**msDelay**       | the delay (in ms) before the function call |
+
+### getState
+
+```c++
+    sl_state getState();
+```
+
+returns the function defined as the current state.
+
+### loop
+
+```c++
+    void loop()
+```
+
+This function must be called for each StatefulLoop instance in Arduino's main loop function.
