@@ -7,7 +7,7 @@ This library provides an alternative to the **delay** function.
 
 Instead of one function with a call to **delay** inside, make it two functions. With a StatefulLoop instance, the first function will schedule the second one to run after the needed delay... Allowing you to run other parts of code meanwhile.
 
-### The states way
+### States
 
 The main idea behind the StatefulLoop library is to deal withs *states*. States are short 'one-task' non blocking pieces of code, organized in functions. One function for each state.
 
