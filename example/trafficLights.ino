@@ -8,7 +8,7 @@
     state of the traffic lights to "walkState" (green
     for pedestrians and red for vehicles).
 
-    This is an exemple of a sketch using the StatefulLoop library
+    This is an example of a sketch using the StatefulLoop library
     <https://github.com/dj3c1t/StatefulLoop>
 
     pin  4: green led for vehicles (OUTPUT)
