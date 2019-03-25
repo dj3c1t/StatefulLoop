@@ -73,7 +73,7 @@ A full example is available in the [trafficLights.ino](https://github.com/dj3c1t
     void setState(sl_state stateFunction, unsigned long msDelay = 0)
 ```
 
-Sets the next state to the function **stateFunction**.
+Sets the next state to **stateFunction**.
 
 |                  |                                            |
 |------------------|--------------------------------------------|
