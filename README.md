@@ -67,7 +67,8 @@ A full example is available in the [trafficLights.ino](https://github.com/dj3c1t
 
 ## StatefulLoop functions
 
-The **sl_state** type below is defined in **StatefulLoop.h** as function pointer.
+The **sl_state** type below is defined in **StatefulLoop.h** as pointer to a function
+that returns void and takes no parameter.
 
 ### setState
 
