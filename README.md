@@ -66,7 +66,7 @@ Sets the next state for the StatefulLoop instance.
 
 Returns the function defined as the current state in the StatefulLoop instance.
 
-### loop
+#### loop
 
 ```c++
     void loop()
