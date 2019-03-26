@@ -29,7 +29,7 @@ void orangeState() {
 }
 ```
 
-A full example is available in the [trafficLights.ino](https://github.com/dj3c1t/StatefulLoop/blob/master/example/trafficLights.ino) sketch.
+See a full example in the [trafficLights.ino](https://github.com/dj3c1t/StatefulLoop/blob/master/example/trafficLights.ino) sketch.
 
 ## Types and functions
 
