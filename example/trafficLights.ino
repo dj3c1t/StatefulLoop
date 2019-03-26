@@ -4,7 +4,7 @@
 
     This sketch runs a set of traffic lights, with three leds
     (green, orange and red) for vehicles, two leds (green and red)
-    for pedestrians and a push button that can be used to change se
+    for pedestrians and a push button that can be used to change the
     state of the traffic lights to "walkState" (green
     for pedestrians and red for vehicles).
 
