@@ -40,7 +40,7 @@ A full example is available in the [trafficLights.ino](https://github.com/dj3c1t
 A pointer to a function that returns void and takes no parameter.
 
 ```c++
-    typedef void (* sl_state)();
+    typedef void (* sl_state)()
 ```
 
 ### Functions
@@ -61,7 +61,7 @@ Sets the next state for the StatefulLoop instance.
 #### getState
 
 ```c++
-    sl_state getState();
+    sl_state getState()
 ```
 
 Returns the function defined as the current state in the StatefulLoop instance.
