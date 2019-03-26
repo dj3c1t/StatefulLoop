@@ -31,7 +31,7 @@ void orangeState() {
 
 A full example is available in the [trafficLights.ino](https://github.com/dj3c1t/StatefulLoop/blob/master/example/trafficLights.ino) sketch.
 
-## StatefulLoop types and functions
+## Types and functions
 
 ### Types
 
